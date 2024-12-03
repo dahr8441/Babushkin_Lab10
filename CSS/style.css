@@ -1,0 +1,286 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f4e1d2;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+    z-index: 1000;
+}
+.hero {
+    background: url("../Images/preparation_paste.png") no-repeat center/cover;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 0;
+}
+.hero-content {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+    padding-top: 100px;
+}
+.hero h1 {
+    font-size: 7rem;
+    margin-bottom: 20px;
+}
+.hero-buttons {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #ff9900;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.nav-menu {
+    display: flex;
+    gap: 20px;
+}
+.nav-menu li {
+    list-style: none;
+}
+.nav-menu li a {
+    color: #5c4033; 
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.nav-menu li a:hover {
+    background-color: #e2b8a1; 
+    color: #fff; 
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 120px 50px 50px;
+    background: #f2f2f2;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    gap: 20px;
+}
+.about .text {
+    font-size: 1.3rem;
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.about .small-img {
+    width: 40%;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.about .image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .large-img {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.ingredients {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 50px;
+    background: url("../Images/Basilic.jpg");
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.ingredients-grid {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.ingredient {
+    text-align: center;
+    flex: 1;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+}
+.ingredient img {
+    height: 200px;
+    margin-bottom: 10px;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px;
+    background: #f2f2f2;
+}
+.text-container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 45%;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+.big-text {
+    font-size: 2rem;
+    color: #ff9900;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.separator {
+    width: 185px;
+    height: 20px;
+    margin: 10px auto;
+}
+.small-text {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 10px;
+}
+.dish-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.dish-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff9900;
+}
+.dish-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff9900;
+}
+.dish-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+    text-align: left;
+}
+.reviews {
+    position: relative;
+    background: url("../Images/cozy-dish.jpg") no-repeat center/cover;
+    padding: 100px 0;
+}
+.content-container {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 15px;
+    text-align: center;
+}
+.big-text1 {
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.normal-text1 {
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 15px;
+}
+.small-text1 {
+    font-size: 1rem;
+    color: white;
+    margin-top: 10px;
+}
+.reservations {
+    padding: 50px;
+    background: #f2f2f2;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+.reservation-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+.reservation-images {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.reservation-images img {
+    width: auto;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+.reservation-form {
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 20px;
+}
+.form-row {
+    display: flex;
+    gap: 15px;
+}
+.form-group {
+    flex: 1;
+}
+.reservation-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+}
+.reservation-form input:focus {
+    outline: none;
+    border-color: #FFD700;
+}
+.reservation-form button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #FFD700;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 97%
+}
+.reservation-form button:hover {
+    background-color: #e6b800;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
